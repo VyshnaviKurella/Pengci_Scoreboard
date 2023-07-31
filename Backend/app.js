@@ -14,14 +14,14 @@ require("dotenv").config({ path: "backend/config/config.env" });
 app.use(cors({ origin: "http://localhost:3000", credentials: true }))
 // app.use(express.json());
 // app.use(cookieParser());
-// app.use(fileUpload());
-app.use(bodyParser.json({ limit: '100mb' }));
-app.use(bodyParser.urlencoded({ extended: true, limit: '100mb' }));
+// // app.use(fileUpload());
+// app.use(bodyParser.json({ limit: '100mb' }));
+// app.use(bodyParser.urlencoded({ extended: true, limit: '100mb' }));
 app.use(express.json());
 
 
 // Route Imports
-const pengci = require("./routes/");
+const pengci = require("./routes/scoreRoute");
 
 
 app.use("/pengci/", pengci);
