@@ -37,11 +37,34 @@ const Pengci = () => {
   };
 
   useEffect(() => {
-   
+
     fetchData();
+    const intervalId = setInterval(() => {
+      fetchData();
+    }, 5 * 60 * 1000); 
+
+    return () => {
+      clearInterval(intervalId);
+    };
+
   }, []);
 
   const handleChangePage = (event, newPage) => {
+    // const newPengciData = {
+    //   username: 'leroy',
+    //   datetime: '2022-08-12 10:18:01.123456',
+    //   email: 'leroy@example.com',
+    //   score: '200',
+    // };
+
+    // axios.post('http://localhost:2000/pengci/addScore', newPengciData)
+    //   .then(response => {
+    //     console.log('Data saved successfully');
+    //   })
+    //   .catch(error => {
+    //     console.error('Error saving data:', error);
+    //   });
+
     setPage(newPage);
   };
 
