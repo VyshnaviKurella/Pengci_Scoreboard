@@ -9,15 +9,12 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TablePagination from '@mui/material/TablePagination';
-
-import Button from '@mui/material/Button';
 import Footer from "./Footer.js";
 import Typography from '@mui/material/Typography';
-// import { useNavigate, Link } from 'react-router-dom';
-import Tooltip from "@mui/material/Tooltip";
+import { Link } from 'react-router-dom';
 import { Grid } from '@mui/material';
 import axios from 'axios';
-// import Grid from "@mui/material/Grid";
+
 const Pengci = () => {
   // const navigate = useNavigate();
   const [data, setData] = useState([]);
@@ -74,12 +71,12 @@ const Pengci = () => {
         <TableCell>{index + 1 + page * rowsPerPage}</TableCell>
         <TableCell>{row.username}</TableCell>
         <TableCell>{row.score}</TableCell>
+        {/* <TableCell>{row.email}</TableCell> */}
+
       </TableRow>
     ));
   };
   
-
-
 
   const displayScores = () => {
     return ( 
@@ -94,6 +91,7 @@ const Pengci = () => {
               <TableCell>Rank</TableCell>
               <TableCell>Username</TableCell>
               <TableCell>Score</TableCell>
+              {/* <TableCell>Email ID</TableCell> */}
             </TableRow>
           </TableHead>
           <TableBody>{renderTableRows()}</TableBody>
@@ -107,6 +105,7 @@ const Pengci = () => {
         page={page}
         onPageChange={handleChangePage}
       />
+      <Link style={{ color: "#848D62" }} to={`/pengci/all_scores`}> View Scores List</Link>
       
       </Grid>
     )
@@ -124,17 +123,21 @@ const Pengci = () => {
         </Typography>
         <Typography className="homePage_typography" variant="h4" color="textSecondary" component="div">
           Pengci Game info
+          </Typography>
+    
+        <Typography className="homePage_typography" variant="h6" color="textSecondary" component="div">
+        <Link style={{ color: "#848D62" }} to={`/pengci/instructions`}> Instructions to play </Link>
         </Typography>
         </Grid>
         <Grid item xs={7}>
 
         {displayScores()}
         </Grid>
+      
         </Grid>
       </div>
       <Footer />
     </div>
-  
 
   )
 };
