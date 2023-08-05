@@ -23,7 +23,7 @@ const Pengci = () => {
   const rowsPerPage = 10;
 
   const fetchData = async () => {
-     await axios.get('http://localhost:2000/pengci/getScores')
+     await axios.get('http://localhost:4000/pengci/getScores')
      .then((res) =>{
       
 
