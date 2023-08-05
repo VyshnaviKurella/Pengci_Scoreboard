@@ -119,7 +119,10 @@ const Pengci = () => {
         <Grid container  direction="row" spacing={2}   >
           <Grid item xs={5} >
         <Typography className="homePage_typography" variant="h4" color="textSecondary" component="div">
-          Pengci
+          Trickster Roads
+        </Typography>
+        <Typography className="homePage_typography" variant="h6" color="textSecondary" component="div">
+        The ultimate game that puts you in the driver's seat of an Autonomous Vehicle (AV) simulation. In this cutting-edge experience, you will delve into the world of AVs and learn how simulation can be used to test their robustness in handling challenging traffic scenarios. Strap yourself in for an adrenaline-pumping adventure where you'll encounter various traffic events designed to push your AV's capabilities to the limit. Can you outwit other AVs that attempt to trick you into making mistakes? By mastering these events, you'll unlock the secrets to navigate through tricky situations and gain the skills to potentially outsmart your rivals. So, gear up for the ride of a lifetime on Trickster Roads, where you'll embark on an exhilarating journey of discovery and strategy in the realm of Autonomous Vehicles!
         </Typography>
         <Typography className="homePage_typography" variant="h4" color="textSecondary" component="div">
           Pengci Game info
