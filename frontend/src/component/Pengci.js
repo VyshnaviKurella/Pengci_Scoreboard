@@ -58,8 +58,8 @@ const Pengci = () => {
           <tbody>{renderTableRows()}</tbody>
         </table>
         <div>
-          <button onClick={() => handleChangePage(null, page - 1)} disabled={page === 0}>Previous</button>
-          <button onClick={() => handleChangePage(null, page + 1)} disabled={page >= Math.ceil(data.length / rowsPerPage) - 1}>Next</button>
+          <button  onClick={() => handleChangePage(null, page - 1)} disabled={page === 0}>Previous</button>
+          <button  onClick={() => handleChangePage(null, page + 1)} disabled={page >= Math.ceil(data.length / rowsPerPage) - 1}>Next</button>
         </div>
       </div>
     );

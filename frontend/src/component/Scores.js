@@ -28,8 +28,8 @@ const Scores = () => {
 
   const renderTableRows = () => {
     return data.map((row, index) => (
-      <tr key={index}>
-        <td>{index}</td>
+      <tr key={index+1}>
+        <td>{index+1}</td>
         <td>{row.username}</td>
         <td>{row.score}</td>
         <td>{row.email}</td>
@@ -40,9 +40,9 @@ const Scores = () => {
   return (
     <div className="bg">
       <div className="title-container">
-      <div className="alignment">
+      <div className="alignment_h1">
         
-          <h4 className="homePage_typography">Scoreboard</h4>
+          <h1 className="homePage_typography">Scoreboard</h1>
         </div>
         <div className="scontainer">
           <table className="score-table">

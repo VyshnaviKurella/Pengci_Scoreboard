@@ -11,12 +11,8 @@ const errorMiddleware = require("./middleware/error");
 // if (process.env.NODE_ENV !== "PRODUCTION") {
 require("dotenv").config({ path: "backend/config/config.env" });
 // }
-app.use(cors({ origin: "http://localhost:3000", credentials: true }))
-// app.use(express.json());
-// app.use(cookieParser());
-// // app.use(fileUpload());
-// app.use(bodyParser.json({ limit: '100mb' }));
-// app.use(bodyParser.urlencoded({ extended: true, limit: '100mb' }));
+app.use(cors({ origin: ["http://localhost:3000","http://localhost:2000"], credentials: true }))
+
 app.use(express.json());
 
 

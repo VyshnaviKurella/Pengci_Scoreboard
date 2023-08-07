@@ -1,65 +1,3 @@
-/* 
-.bg {
-    background-color: #FAF2E9;
-}
-
-.homePage_card.MuiCard-root {
-    background-color: #FAF2E9;
- 
-    margin: 20px 10px 10px 20px;
-    padding: 5px;
-    box-shadow: 10px 10px 10px 10px rgba(228, 166, 184, 0.2), 10px 10px 10px 10px rgba(233, 133, 133, 0.1), 10px 10px 10px 10px rgba(163, 195, 231, 0.1)
-        
-
-}
-
-.homePage_typography.MuiTypography-root {
-    margin-left: 20px;
-    color: #848D62;
-    font-weight: 600;
-}
-
-.homePage_button.MuiButton-root {
- 
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    color: white;
-
-    ;
-    padding: 10px;
-    background-color: #848D62;
-    border-radius: 20px;
-
-}
-.homePage_button.MuiButton-root:hover {
-    background-color: #6b614f;
-    transition: 0.7s;
-    color: white
-}
-.displayProductFormImage {
-    width: 100%;
-    overflow: auto;
-}
-
-.displayProductFormImage>img {
-
-    width: 100px;
-    margin: 10px 30px;
-}
-
-.alignment {
-    margin: 0vw;
-}
-
-
-.nameEllipsis {
-    white-space: nowrap;
-    max-width: 250px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-} */
-
 /* Scores.css */
 
 /* Add the following styles for glassmorphism effect and scrolling table */
@@ -73,16 +11,13 @@
     backdrop-filter: blur(13px);
     opacity: 0.9;
     height: 600px;
-    /* Adjust the height to your preference */
     overflow-y: auto;
-
-    /* Add flexbox styles to position the title container on top */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.alignment h4{
+.alignment h1{
     text-align: center;
     color: #fff;
 }
@@ -116,4 +51,3 @@
     color: #fff;
 }
 
-/* Rest of the CSS styles ... */

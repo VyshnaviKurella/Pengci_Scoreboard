@@ -180,3 +180,16 @@
     background-color: #000000;
     color: #fff;
   }
+  button:disabled {
+    /* background-color: gray; */
+    color:gray;
+    cursor: not-allowed;
+    background: transparent;
+    border: 0px ;
+  }
+  button:enabled{
+     color: #fff ;
+     cursor: pointer;
+     background: transparent;
+     border: 0px ;
+  }
