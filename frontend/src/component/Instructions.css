@@ -7,72 +7,66 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  /* Container to hold the instructions content */
-  .icontainer {
+}
+
+/* Container to hold the instructions content */
+.icontainer {
     max-width: 900px;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style for the title */
-  .homePage_typography {
+}
+
+/* Style for the title */
+.home2Page_typography {
     text-align: center;
     color: #333;
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  /* Style for the instruction content */
-  .instruction-content {
+}
+
+/* Style for the instruction content */
+.instruction-content {
     font-size: 16px;
     color: #555;
-  }
-  
-  /* Style for the ordered list */
-  .instruction-content ol {
+}
+
+/* Style for the ordered list */
+.instruction-content ol {
     margin: 20px 0;
     padding-left: 30px;
-  }
-  
-  /* Style for list items */
-  .instruction-content li {
+}
+
+/* Style for list items */
+.instruction-content li {
     margin-bottom: 10px;
-  }
-  
-  /* Add some spacing between paragraphs */
-  .instruction-content p {
+}
+
+/* Add some spacing between paragraphs */
+.instruction-content p {
     margin-bottom: 15px;
-  }
-  
-  /* Add a border at the bottom of the title */
-  .title-container {
+}
+
+/* Add a border at the bottom of the title */
+.title-container {
     border-bottom: 2px solid #ccc;
     margin-bottom: 20px;
     padding-bottom: 10px;
-  }
-  
-  /* Style for links */
-  .instruction-content a {
+}
+
+/* Style for links */
+.instruction-content a {
     color: #007bff;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
-  }
-  
-  .instruction-content a:hover {
-    color: #0056b3;
-  }
-  
-  /* Make the ordered list numbers bold */
-  .instruction-content ol li::before {
-    content: counter(item);
-    counter-increment: item;
     font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  /* Rest of the CSS styles ... */
-  
+}
+
+.instruction-content a:hover {
+    color: #0056b3;
+}
+
+
+
+/* Rest of the CSS styles ... */

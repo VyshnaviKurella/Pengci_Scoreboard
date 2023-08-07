@@ -6,7 +6,7 @@ const Instructions = () => {
     <div className="bg">
       <div className="alignment">
         <div className="icontainer">
-          <h4 className="homePage_typography">Instructions to Play Trickster Roads:</h4>
+          <h3 className="home2Page_typography">Instructions to Play Trickster Roads:</h3>
           <div className="instruction-content">
             <p>
               Welcome to Trickster Roads, where you'll take on the role of a driver in an exciting Autonomous Vehicle

@@ -46,7 +46,7 @@ const Pengci = () => {
   const displayScores = () => {
     return (
       <div className="leaderboard-container">
-        <h4>Leaderboard</h4>
+        <h3>Leaderboard</h3>
         <table>
           <thead>
             <tr>

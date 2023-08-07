@@ -63,49 +63,57 @@
 /* Scores.css */
 
 /* Add the following styles for glassmorphism effect and scrolling table */
-.container {
+.scontainer {
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 1200px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13px);
     opacity: 0.9;
-    height: 600px; /* Adjust the height to your preference */
+    height: 600px;
+    /* Adjust the height to your preference */
     overflow-y: auto;
-  
+
     /* Add flexbox styles to position the title container on top */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-  }
+}
 
-  .title-container {
+.alignment h4{
+    text-align: center;
+    color: #fff;
+}
+
+.title-container {
+    width: 1200px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
     border-radius: 10px 10px 0 0;
-  }
-  
-  .homePage_typography {
+}
+
+.homePage_typography {
     text-align: center;
     color: #fff;
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  .score-table {
+    
+}
+
+.score-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 30px;
-  }
-  
-  .score-table th,
-  .score-table td {
+}
+
+.score-table th,
+.score-table td {
     padding: 8px 16px;
     text-align: left;
     color: #fff;
-  }
-  /* Rest of the CSS styles ... */
-  
+}
+
+/* Rest of the CSS styles ... */

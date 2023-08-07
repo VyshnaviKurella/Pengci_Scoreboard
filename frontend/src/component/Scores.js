@@ -44,7 +44,7 @@ const Scores = () => {
         
           <h4 className="homePage_typography">Scoreboard</h4>
         </div>
-        <div className="container">
+        <div className="scontainer">
           <table className="score-table">
             <thead>
               <tr>
