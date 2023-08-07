@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./Pengci.css";
+import logo from './logouci.png';
 import axios from 'axios';
 import ReactPlayer from 'react-player';
 
@@ -69,6 +70,10 @@ const Pengci = () => {
     <div className="bg">
       <div className="alignment">
         <div className="info-container">
+        <div className="logo">
+            <img src={logo} alt="Trickster Roads Logo" />
+          </div>
+
           <h1>Trickster Roads</h1>
           <div className="video-container">
             <ReactPlayer
