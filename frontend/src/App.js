@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route path='/pengci' element={<Pengci />} />
+          <Route path='/' element={<Pengci />} />
           <Route path='/pengci/all_scores' element ={<Scores/>} />
           <Route path='/pengci/instructions' element={<Instructions />} />
         </Routes>
